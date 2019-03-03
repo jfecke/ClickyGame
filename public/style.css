@@ -9,3 +9,12 @@ nav {
     right: 10%;
     position: absolute;
 }
+
+.center {
+    margin: 0 45% 0 auto;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    font-weight: bold;
+}

@@ -12,6 +12,7 @@ class Form extends Component {
     topscore: 0,
     clickedOn: [],
     order: [0, 1,2,3,4,5,6,7,8,9,10,11],
+    message: "Click on a picture to begin!",
     characters
   };
 
@@ -22,6 +23,7 @@ class Form extends Component {
       this.state.clickedOn.push(event.target.id);
       this.setState({ 
         score: this.state.score + 1,
+        message: "Correct! Pick a different picture."
       });
     } else {
         if (this.state.score > this.state.topscore) {
@@ -29,7 +31,8 @@ class Form extends Component {
         }
         this.setState({
           score: 0,
-          clickedOn: []
+          clickedOn: [],
+          message: "Wrong! Please start over."
         });
     }
       let temporder = [];
@@ -46,7 +49,7 @@ class Form extends Component {
     // Notice how each input has a `value`, `name`, and `onChange` prop
     return (
       <div>
-        <Navbar score={this.state.score} topscore={this.state.topscore} />
+        <Navbar score={this.state.score} topscore={this.state.topscore} message={this.state.message} />
         <Wrapper>
         {this.state.order.map(sequence => (
           <Cards
