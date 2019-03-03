@@ -16,15 +16,41 @@ class Form extends Component {
     characters
   };
 
+  resetGame = () => {
+    this.setState({
+      score: 0,
+      clickedOn: []
+    });
+  }
+
+  setOrder = () => {
+    let temporder = [];
+    while (this.state.characters.length > temporder.length) {
+      let number = Math.floor(Math.random()*this.state.characters.length);
+      if (temporder.indexOf(number) < 0) {
+        temporder.push(number);
+        }
+      }
+    this.setState({order: temporder})
+  }
+
   handleClick = event => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     event.preventDefault();
     if (this.state.clickedOn.indexOf(event.target.id) < 0 ) {
+      let tempmessage = "";
       this.state.clickedOn.push(event.target.id);
-      this.setState({ 
-        score: this.state.score + 1,
-        message: "Correct! Pick a different picture."
-      });
+      this.setState({score: this.state.score + 1});
+      if (this.state.score >= this.state.characters.length-1) {
+        tempmessage = "Congrats! You Won!"
+        if (this.state.score > this.state.topscore) {
+          this.setState({topscore: this.state.score+1})
+        }
+        this.resetGame();
+      } else {
+        tempmessage = "Correct! Pick a different picture."
+      }
+      this.setState({message: tempmessage});
     } else {
         if (this.state.score > this.state.topscore) {
           this.setState({topscore: this.state.score})
@@ -35,18 +61,10 @@ class Form extends Component {
           message: "Wrong! Please start over."
         });
     }
-      let temporder = [];
-      while (this.state.characters.length > temporder.length) {
-        let number = Math.floor(Math.random()*this.state.characters.length);
-        if (temporder.indexOf(number) < 0) {
-          temporder.push(number);
-        }
-      }
-      this.setState({order: temporder})   
+    this.setOrder();
   };
 
   render() {
-    // Notice how each input has a `value`, `name`, and `onChange` prop
     return (
       <div>
         <Navbar score={this.state.score} topscore={this.state.topscore} message={this.state.message} />
