@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Goku",
+    "image": "https://res.cloudinary.com/jerrick/image/upload/f_auto,fl_progressive,q_auto,c_fit,w_1100/ua05gxozoq3du3gkilss"
+  },  
+  {
+    "id": 2,
+    "name": "Gohan",
+    "image": "https://cdn.gamerant.com/wp-content/uploads/ultimate-gohan-dbz-fighterz.jpg.optimal.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Vegeta",
+    "image": "https://otakukart.com/wp-content/uploads/2018/01/vegeta_s_new_form_by_dbztrev-dbzc8hf-1.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Goten",
+    "image": "https://media.comicbook.com/2017/12/goten-super-saiyan-1062254-1280x0.png"
+  },
+  {
+    "id": 5,
+    "name": "Trunks",
+    "image": "https://i.ytimg.com/vi/i8wyDOEjJVs/maxresdefault.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Bulma",
+    "image": "https://emptylighthouse-production.s3-us-west-2.amazonaws.com/s3fs-public/styles/728x_hero/public/field/image/dragon-ball-super-042-bulma.jpg?itok=ZR21vw8N"
+  },
+  {
+    "id": 7,
+    "name": "ChiChi",
+    "image": "https://vignette.wikia.nocookie.net/teamfourstar/images/4/47/DBZChi-Chi.png/revision/latest?cb=20160207210330"
+  },
+  {
+    "id": 8,
+    "name": "Krillian",
+    "image": "https://img.christiantimes.com/full/33325/630-0/f.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Piccolo",
+    "image": "https://i.kinja-img.com/gawker-media/image/upload/s---8HBQI5w--/c_scale,f_auto,fl_progressive,q_80,w_800/xv8mem6t9jlbljlasa76.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Buu",
+    "image": "https://www.tvovermind.com/wp-content/uploads/2018/08/Dragonball-Fat-Buu-750x422.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Frieza",
+    "image": "https://imagesvc.timeincapp.com/v3/fan/image?url=https%3A%2F%2Fbamsmackpow.com%2Ffiles%2F2017%2F05%2FGolden-Frieza-Dragon-Ball-Z-Resurrection-F-15.jpg&c=sc&w=850&h=560"
+  },
+  {
+    "id": 12,
+    "name": "Cell",
+    "image": "https://media.comicbook.com/2017/03/dragon-ball-z-cell-screen-shot-2017-03-09-at-113650-pm-237504-1280x0.png"
+  }
+]

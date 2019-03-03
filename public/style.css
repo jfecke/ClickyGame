@@ -1,0 +1,11 @@
+.white {
+    color: white;
+}
+nav {
+    position: relative;
+}
+
+.topright {
+    right: 10%;
+    position: absolute;
+}
