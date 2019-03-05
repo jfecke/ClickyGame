@@ -58,5 +58,47 @@
     "id": 12,
     "name": "Cell",
     "image": "https://media.comicbook.com/2017/03/dragon-ball-z-cell-screen-shot-2017-03-09-at-113650-pm-237504-1280x0.png"
+  },
+  {
+    "id": 13,
+    "name": "Broly",
+    "image": "https://i.ytimg.com/vi/MDX049lqytI/maxresdefault.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Cooler",
+    "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2018/08/Cooler-Final-Form-Dragon-Ball-Z.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Beerus",
+    "image": "https://medias.spotern.com/spots/w640/111881-1532336916.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Yamcha",
+    "image": "http://0.media.dorkly.cvcdn.com/14/77/8c6d2605349d1b2d26208f039b4ccc30.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Roshi",
+    "image": "https://otakukart.com/animeblog/wp-content/uploads/2016/07/Dragon-Ball-Z-Revival-of-F.mp4_snapshot_00.39.17_2016.04.29_13.08.38.png"
+  },
+  {
+    "id": 18,
+    "name": "Android 18",
+    "image": "https://cache.desktopnexus.com/thumbseg/2123/2123994-bigthumbnail.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Whis",
+    "image": "http://static.comicvine.com/uploads/original/11121/111215084/4454463-whis_dbz_by_noheyarofo-d6piw8z.png"
+  },
+  {
+    "id": 20,
+    "name": "Babidi",
+    "image": "https://i.ytimg.com/vi/J8HC0pkqVqA/maxresdefault.jpg"
   }
 ]
+
+
